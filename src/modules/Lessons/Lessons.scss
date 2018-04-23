@@ -1,0 +1,23 @@
+aside {
+  border-right: 1px #7f7e81 dashed;
+  float: left;
+  max-width: 400px;
+  min-height: 75vh;
+  padding: 0 15px;
+}
+
+.lessons-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 22px;
+  line-height: 34px;
+  .lesson-item {
+    text-decoration: none;
+    color: #607D8B;
+    padding: 5px;
+    &.active {
+      background: #795548;
+      color: white;
+    }
+  }
+}

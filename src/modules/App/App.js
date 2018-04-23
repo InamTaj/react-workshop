@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Lessons from '../Lessons/Lessons';
 
 import './App.css';
 
@@ -10,9 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <p className="App-intro">
-          Birthplace of Great React Developers!
-        </p>
+        <Lessons />
         <Footer/>
       </div>
     );
