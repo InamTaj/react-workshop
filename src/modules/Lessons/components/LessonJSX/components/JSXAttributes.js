@@ -8,7 +8,7 @@ const handleClick = () => {
 const JSXAttributes = () => {
   return (
       <div>
-        <h4>Specify Attributes in JSX</h4>
+        <h2>Specify Attributes in JSX</h2>
         <p style={{color: '#c62828'}}>This my shiny new text in really RED!</p>
         <p title="This title is sponsored by a JSX attribute">Hover Me!</p>
         <button style={{color: '#1976D2'}} onClick={handleClick}>Click Me!</button>

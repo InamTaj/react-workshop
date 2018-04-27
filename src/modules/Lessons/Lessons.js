@@ -21,7 +21,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.REACT_ELEMENTS,
+      activeLesson: LESSON_TYPES.JSX,
     };
   }
 

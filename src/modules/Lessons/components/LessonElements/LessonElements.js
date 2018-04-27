@@ -1,17 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import EleIntro from './components/EleIntro';
+import EleRender from './components/EleRender';
+import EleUpdation from './components/EleUpdation';
+
 const LessonElements = ({title}) => {
   return (
       <div className="lesson-container">
-        <span className="title">
-          <strong>{title}</strong>
-        </span>
+        <h1>{title}</h1>
         <div className="lesson-parts">
-          <div className="intro">The bricks of creating React apps</div>
-          <div className="elem-1">
-            <code>{`const element = <h1>I am a React element</h1>`}</code>
-          </div>
+          <EleIntro />
+          <EleRender />
+          <EleUpdation />
         </div>
       </div>
   );

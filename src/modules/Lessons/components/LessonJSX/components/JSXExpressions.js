@@ -6,20 +6,20 @@ const JSXExpressions = () => {
   const age = dataTable.length;
 
   return (
-      <div className="expressions">
-        <h4>Add Expressions in JSX!</h4>
-        <div className="exp-table">
-          <h5>Print items in Array</h5>
+      <article className="expressions">
+        <h2>Add Expressions in JSX!</h2>
+        <section className="exp-table">
+          <h4>Print items in Array</h4>
           {dataTable.map((item) => <p key={item}>{item} x 9 = {item * 9}</p>)}
-        </div>
+        </section>
 
-        <div className="exp-data">
-          <h5>Render Dynamic Data</h5>
+        <section className="exp-data">
+          <h4>Render Dynamic Data</h4>
           <p>
             Hello Mr. {username}! I learned that you got a ${age}.{dataTable[3]} performance bonus this year :D
           </p>
-        </div>
-      </div>
+        </section>
+      </article>
   );
 };
 

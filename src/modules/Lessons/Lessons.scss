@@ -48,7 +48,7 @@ aside {
     margin: 0 0 10px;
   }
   h1 {
-    font-size: 24px;
+    font-size: 28px;
   }
   h2 {
     font-size: 22px;
@@ -66,6 +66,16 @@ aside {
     font-size: 14px;
     line-height: 1.5;
     margin: 0 0 15px;
+  }
+  code {
+    background: #CFD8DC;
+    border-radius: 5px;
+    color: #212121;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 5px 15px;
   }
   .lesson-container {
     .title {
