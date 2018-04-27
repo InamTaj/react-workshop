@@ -5,6 +5,7 @@ A hands-on workshop on building Web Apps with React
 
 ## Table of Contents
 * [Environment Setup](#environment-setup)
+* [Project Setup](#project-setup)
 * [ES6 Primer](#es6-primer)
 * [Introduction to JSX](#introduction-to-jsx)
 
@@ -16,6 +17,14 @@ A hands-on workshop on building Web Apps with React
 * [WebStorm](https://www.jetbrains.com/webstorm/) / [Sublime 3](https://www.sublimetext.com/3)
 * [Google Chrome v60+](https://www.google.com/intl/en/chrome/browser/)
 * [React Developer Tools](https://github.com/facebook/react-devtools) _(Browser Extension)_
+
+#### Project Setup
+> The demo project can be setup by the procedure mentioned below.
+
+Run the following commands in the exact order in order to download project dependencies and start the project.
+* `$ cd react-workshop`
+* `$ yarn install`
+* `$ yarn start`
 
 
 #### ES6 Primer
