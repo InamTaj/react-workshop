@@ -4,6 +4,7 @@ aside {
   max-width: 400px;
   min-height: 75vh;
   padding: 0 15px;
+  margin-right: 15px;
 }
 
 .lessons-list {
@@ -18,6 +19,16 @@ aside {
     &.active {
       background: #795548;
       color: white;
+    }
+  }
+}
+
+.lesson-body {
+  padding-top: 15px;
+
+  .lesson-container {
+    .title {
+      font-size: 24px;
     }
   }
 }
