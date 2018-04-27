@@ -3,6 +3,7 @@ import React, { Component }from 'react';
 import classnames from 'classnames';
 
 import LessonJSX from './components/LessonJSX/LessonJSX';
+import LessonElements from './components/LessonElements/LessonElements';
 
 import './Lessons.css';
 
@@ -20,7 +21,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.JSX,
+      activeLesson: LESSON_TYPES.REACT_ELEMENTS,
     };
   }
 
@@ -35,6 +36,8 @@ class Lessons extends Component {
     switch (type) {
       case LESSON_TYPES.JSX:
         return <LessonJSX title={LESSON_TYPES.JSX} />;
+      case LESSON_TYPES.REACT_ELEMENTS:
+        return <LessonElements title={LESSON_TYPES.REACT_ELEMENTS} />;
       default:
         return null;
     }
