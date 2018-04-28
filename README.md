@@ -28,7 +28,7 @@ Run the following commands in the exact order in order to download project depen
 
 
 #### ES6 Primer
-> The next (and much better) version of JavaScript that helps write consistent and error-free JavaScript.
+> The next (and much better) version of JavaScript that helps write consistent and error-free code.
 * `let` / `const`
 * template literals
 * Classes
