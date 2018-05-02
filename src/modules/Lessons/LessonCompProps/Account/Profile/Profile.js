@@ -34,7 +34,7 @@ class Profile extends Component {
     return (
         <div className="profile-container">
           <h3>Profile</h3>
-          <i>Hello, {profile.title} {profile.firstName}!</i>
+          <p><i>Hello,</i> {profile.title} {profile.firstName}!</p>
           <ul className="child-list">
             <li>
               <a

@@ -5,7 +5,7 @@ const ProfileView = ({profile}) => {
   return (
       <div className="profile-view">
         <h3>View</h3>
-        <i>View the complete details of your Profile</i>
+        <p>View the complete details of your Profile</p>
         <table>
           <tbody>
           {
