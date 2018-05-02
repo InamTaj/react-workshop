@@ -1,7 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const JSXIntro = () => {
-  return <div className="intro">Hello! I'm a simple component, written in React!</div>;
+const JSXIntro = ({title}) => {
+  return (
+      <div className="lesson-intro">
+        <h1>{title}</h1>
+        <span className="subtitle">Hello! I'm a simple component, written in React!</span>
+      </div>
+  );
+};
+
+JSXIntro.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 
 export default JSXIntro;

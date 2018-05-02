@@ -1,14 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const EleIntro = () => {
+const EleIntro = ({title}) => {
   return (
-      <section className="ele-intro">
-        <div className="intro">The bricks of creating React apps</div>
-        <div className="elem-1">
-          <code>{`const element = <h1>I am a React element</h1>`}</code>
-        </div>
-      </section>
+      <div className="lesson-intro">
+        <h1>{title}</h1>
+        <span className="subtitle">The bricks of creating React apps</span>
+      </div>
   )
+};
+
+EleIntro.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 
 export default EleIntro;

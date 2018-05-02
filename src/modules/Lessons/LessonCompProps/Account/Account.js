@@ -35,11 +35,11 @@ class Account extends Component {
 
   render() {
     return (
-        <div className="lesson-comp-props">
+        <section className="lesson-comp-props">
           <h3>My Account</h3>
           <i>This page will contain all of the details of your account.</i>
           <Profile profile={this.state.user.profile} />
-        </div>
+        </section>
     );
   }
 }

@@ -5,6 +5,7 @@ import classnames from 'classnames';
 import LessonJSX from './LessonJSX/LessonJSX';
 import LessonElements from './LessonElements/LessonElements';
 import LessonCompProps from './LessonCompProps/LessonCompProps';
+import LessonStateLifeHooks from './LessonStateLifeHooks/LessonStateLifeHooks';
 
 import './Lessons.css';
 
@@ -12,7 +13,7 @@ const LESSON_TYPES = {
   JSX: 'Introduction to JSX',
   REACT_ELEMENTS: 'React Elements',
   COMP_PROPS: 'Components and Props',
-  COMP_STATE: 'State & Component Lifecycle',
+  STATE_LIFEHOOKS: 'State & Lifecycle Hooks',
 };
 
 class Lessons extends Component {
@@ -40,6 +41,8 @@ class Lessons extends Component {
         return <LessonElements title={LESSON_TYPES.REACT_ELEMENTS} />;
       case LESSON_TYPES.COMP_PROPS:
         return <LessonCompProps title={LESSON_TYPES.COMP_PROPS} />;
+      case LESSON_TYPES.STATE_LIFEHOOKS:
+        return <LessonStateLifeHooks title={LESSON_TYPES.STATE_LIFEHOOKS} />;
       default:
         return null;
     }

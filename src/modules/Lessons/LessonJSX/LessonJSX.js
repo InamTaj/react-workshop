@@ -10,9 +10,8 @@ import './LessonJSX.css';
 const LessonJSX = ({title}) => {
   return (
       <div className="lesson-container">
-        <h1>{title}</h1>
+        <JSXIntro title={title} />
         <div className="lesson-parts">
-          <JSXIntro />
           <JSXExpressions />
           <JSXAttributes />
         </div>
