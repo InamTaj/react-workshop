@@ -2,7 +2,7 @@ import React from 'react';
 
 const EleRender = () => {
   return (
-      <section className="ele-render">
+      <section className="ele-render info-panel">
         <h2>Render Elements into the DOM</h2>
         <p>Elements can be rendered into the <i>DOM</i> by specifying the target <i>DOM</i> node and component.</p>
         <article>

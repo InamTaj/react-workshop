@@ -25,11 +25,10 @@ class EleUpdation extends Component {
     const { time, score } = this.state;
 
     return (
-        <section>
+        <section className="info-panel">
           <h2>Update React Elements Dynamically</h2>
           Current Time: {time}
-          <br/>
-          <i>Your Trainer's coolness level is: <strong>{score}</strong></i>
+          <i className="right">Your Trainer's coolness level is: <strong>{score}</strong></i>
         </section>
     );
   };

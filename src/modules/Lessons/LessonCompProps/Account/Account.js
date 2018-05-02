@@ -35,9 +35,8 @@ class Account extends Component {
 
   render() {
     return (
-        <section className="lesson-comp-props">
-          <h3>My Account</h3>
-          <i>This page will contain all of the details of your account.</i>
+        <section className="lesson-comp-props info-panel">
+          <h2>My Account</h2>
           <Profile profile={this.state.user.profile} />
         </section>
     );
