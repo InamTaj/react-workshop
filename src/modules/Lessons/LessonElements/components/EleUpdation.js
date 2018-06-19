@@ -8,17 +8,22 @@ class EleUpdation extends Component {
   }
 
   componentDidMount() {
-    setInterval(() => {
+    this.timeInterval = setInterval(() => {
       this.setState({
         time: new Date().toLocaleTimeString(),
       });
     }, 1000);
 
-    setInterval(() => {
+    this.scoreInterval = setInterval(() => {
       this.setState({
         score: this.state.score + 1,
       });
     }, 300);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timeInterval);
+    clearInterval(this.scoreInterval);
   }
 
   render() {

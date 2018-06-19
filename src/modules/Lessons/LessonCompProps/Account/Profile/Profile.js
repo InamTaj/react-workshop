@@ -29,7 +29,7 @@ class Profile extends Component {
 
   render() {
     const { activeComponent } = this.state;
-    const {profile} = this.props;
+    const { profile } = this.props;
 
     return (
         <div className="profile-container">

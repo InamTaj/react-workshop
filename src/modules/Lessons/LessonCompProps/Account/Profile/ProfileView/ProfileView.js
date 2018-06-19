@@ -9,7 +9,7 @@ const ProfileView = ({profile}) => {
         <table>
           <tbody>
           {
-            Object.keys(profile).map((info) => <tr key={info}><td>{info.toUpperCase()}</td> <td>{profile[info]}</td></tr>)
+            Object.keys(profile).map((info) => <tr key={info}><td>{info.toUpperCase()}</td><td>{profile[info]}</td></tr>)
           }
           </tbody>
         </table>
