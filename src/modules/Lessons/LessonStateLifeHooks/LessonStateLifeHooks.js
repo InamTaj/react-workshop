@@ -2,13 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Intro from './components/StateLifeHooksIntro';
+import LessonState from './components/LessonState';
+import LessonHooks from './components/LessonHooks';
 
 const LessonStateLifeHooks = ({title}) => {
   return (
       <div className="lesson-container">
         <Intro title={title} />
         <div className="lesson-parts">
-          <p>UNDER CONSTRUCTION</p>
+          <LessonState />
+          <LessonHooks />
         </div>
       </div>
   );
