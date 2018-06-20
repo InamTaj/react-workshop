@@ -8,7 +8,6 @@ class LessonHooks extends Component {
 
     this.state = {
       fontColor: null,
-      isLoading: true,
       lastUpdated: null,
       countries: null,
     };
@@ -18,7 +17,7 @@ class LessonHooks extends Component {
 
   componentWillMount() {
     console.log('...componentWillMount...');
-    /* With a timeout delay of 1 second, import Countries data from file and set it in the state. */
+    /* With a timeout delay of 5 seconds, import Countries data from file and set it in the state. */
   }
 
   componentDidMount() {
@@ -38,18 +37,16 @@ class LessonHooks extends Component {
     console.log('...render...');
 
      // eslint-disable-next-line no-unused-vars
-    const { fontColor, isLoading, lastUpdated } = this.state;
+    const { fontColor, countries, lastUpdated } = this.state;
 
     return(
         <section className="lesson-hooks info-panel">
           <h2>Lifecycle Hooks</h2>
           <div className="data">
-            {
-              isLoading ? <div>Loading data...</div> : <HooksList fontColor={fontColor} />
-            }
+            <HooksList fontColor={fontColor} />
           </div>
           {
-            !isLoading && (
+            countries && (
                 <div className="action-prompt" style={{textAlign: 'center'}}>
                   <button onClick={this.toggleFontColor}>Toggle Font</button>
                 </div>

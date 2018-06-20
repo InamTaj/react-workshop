@@ -7,23 +7,27 @@ class HooksList extends Component {
 
     this.state = {
       fontColor: props.fontColor || 'red',
-      countriesList: [],
+      countries: [],
+      isLoading: true,
     }
   }
 
   componentWillReceiveProps(nextProps) {
     console.log('...componentWillReceiveProps...');
-    /* Listen to changes in prop and update the state of component IF the data (fontColor or list) has changed */
+    /*
+      - Listen to changes in prop and update the state of component IF the data (countries or fontColor) has changed
+      - remember to also update the isLoading state accordingly
+    */
   }
 
   render() {
 
-    const { countriesList } = this.state;
+    const { isLoading, countries } = this.state;
 
-    return (
+    return isLoading ? <h4>Loading data...</h4> : (
         <ul className="countries-list">
           {
-            countriesList.map(country => <li>{country}</li>)
+            countries.map(country => <li>{country}</li>)
           }
         </ul>
     );
@@ -33,7 +37,7 @@ class HooksList extends Component {
 
 HooksList.propTypes = {
   fontColor: PropTypes.string.isRequired,
-  list: PropTypes.arrayOf(PropTypes.object),
+  countries: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default HooksList;
