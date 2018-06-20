@@ -6,6 +6,7 @@ import LessonJSX from './LessonJSX/LessonJSX';
 import LessonElements from './LessonElements/LessonElements';
 import LessonCompProps from './LessonCompProps/LessonCompProps';
 import LessonStateLifeHooks from './LessonStateLifeHooks/LessonStateLifeHooks';
+import LessonConditionalRenders from './LessonConditionalRenders/LessonConditionalRenders';
 
 import './Lessons.css';
 
@@ -14,6 +15,7 @@ const LESSON_TYPES = {
   REACT_ELEMENTS: 'React Elements',
   COMP_PROPS: 'Components and Props',
   STATE_LIFEHOOKS: 'State & Lifecycle Hooks',
+  CONDITIONAL_RENDERS: 'Conditional Rendering',
 };
 
 class Lessons extends Component {
@@ -22,7 +24,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.STATE_LIFEHOOKS,
+      activeLesson: LESSON_TYPES.CONDITIONAL_RENDERS,
     };
   }
 
@@ -43,6 +45,8 @@ class Lessons extends Component {
         return <LessonCompProps title={LESSON_TYPES.COMP_PROPS} />;
       case LESSON_TYPES.STATE_LIFEHOOKS:
         return <LessonStateLifeHooks title={LESSON_TYPES.STATE_LIFEHOOKS} />;
+      case LESSON_TYPES.CONDITIONAL_RENDERS:
+        return <LessonConditionalRenders title={LESSON_TYPES.CONDITIONAL_RENDERS} />;
       default:
         return null;
     }
