@@ -36,7 +36,7 @@ class HooksList extends Component {
 
 
 HooksList.propTypes = {
-  fontColor: PropTypes.string.isRequired,
+  fontColor: PropTypes.string,
   countries: PropTypes.arrayOf(PropTypes.object),
 };
 
