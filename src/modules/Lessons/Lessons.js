@@ -8,6 +8,7 @@ import LessonCompProps from './LessonCompProps/LessonCompProps';
 import LessonStateLifeHooks from './LessonStateLifeHooks/LessonStateLifeHooks';
 import LessonConditionalRenders from './LessonConditionalRenders/LessonConditionalRenders';
 import LessonStateLiftup from './LessonStateLiftup/LessonStateLiftup';
+import LessonContainerPresentational from './LessonContainerPresentational/LessonContainerPresentational';
 
 import './Lessons.css';
 
@@ -18,6 +19,7 @@ const LESSON_TYPES = {
   STATE_LIFEHOOKS: 'State & Lifecycle Hooks',
   CONDITIONAL_RENDERS: 'Conditional Rendering',
   STATE_LIFTUP: 'State Lift-up',
+  CONTAINER_PRESENT: 'Container vs. Presentational',
 };
 
 class Lessons extends Component {
@@ -26,7 +28,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.STATE_LIFTUP,
+      activeLesson: LESSON_TYPES.CONTAINER_PRESENT,
     };
   }
 
@@ -51,6 +53,8 @@ class Lessons extends Component {
         return <LessonConditionalRenders title={LESSON_TYPES.CONDITIONAL_RENDERS} />;
       case LESSON_TYPES.STATE_LIFTUP:
         return <LessonStateLiftup title={LESSON_TYPES.STATE_LIFTUP} />;
+      case LESSON_TYPES.CONTAINER_PRESENT:
+        return <LessonContainerPresentational title={LESSON_TYPES.CONTAINER_PRESENT} />;
       default:
         return null;
     }
