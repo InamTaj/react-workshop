@@ -10,6 +10,7 @@ import LessonConditionalRenders from './LessonConditionalRenders/LessonCondition
 import LessonStateLiftup from './LessonStateLiftup/LessonStateLiftup';
 import LessonContainerPresentational from './LessonContainerPresentational/LessonContainerPresentational';
 import LessonUserData from './LessonUserData/LessonUserData';
+import LessonAPIIntegration from './LessonAPIIntegration/LessonAPIIntegration';
 
 import './Lessons.css';
 
@@ -22,6 +23,7 @@ const LESSON_TYPES = {
   STATE_LIFTUP: 'State Lift-up',
   CONTAINER_PRESENT: 'Container vs. Presentational',
   USER_DATA: 'Handling User Data',
+  API_INTEGRATION: 'API Integration',
 };
 
 class Lessons extends Component {
@@ -30,7 +32,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.USER_DATA,
+      activeLesson: LESSON_TYPES.API_INTEGRATION,
     };
   }
 
@@ -59,6 +61,8 @@ class Lessons extends Component {
         return <LessonContainerPresentational title={LESSON_TYPES.CONTAINER_PRESENT} />;
       case LESSON_TYPES.USER_DATA:
         return <LessonUserData title={LESSON_TYPES.USER_DATA} />;
+      case LESSON_TYPES.API_INTEGRATION:
+        return <LessonAPIIntegration title={LESSON_TYPES.API_INTEGRATION} />;
       default:
         return null;
     }
