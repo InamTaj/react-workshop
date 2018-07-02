@@ -1,8 +1,8 @@
 import React from 'react';
 
-import GitDashboard from './part1/GitDashboard';
+import GitDashboard from './part2/GitDashboard';
 
-import './LessonAPIIntegration.css'
+import './PracticeAPIIntegration.css'
 
 const PracticeAPIIntegration = () => {
   return (
