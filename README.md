@@ -8,6 +8,8 @@ A hands-on workshop on building Web Apps with React
 * [Project Setup](#project-setup)
 * [ES6 Primer](#es6-primer)
 * [Introduction to JSX](#introduction-to-jsx)
+* [React Elements](#react-elements)
+* [Components and Props](#components-and-props)
 
 
 #### Environment Setup
@@ -46,8 +48,28 @@ Run the following commands in the exact order in order to download project depen
 
 #### Introduction to JSX
 > JSX allows writing Markup in JavaScript. It's a utility that helps developers create React components quickly and seamlessly.
-* Branch: `lesson_jsx`
+* Code: `LessonJSX`
 
 **Study Links**:
 * [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 * [React: Rethinking best practices](https://youtu.be/x7cQ3mrcKaY)
+
+
+#### React Elements
+> Elements are the basic building blocks of React apps. They represent how DOM should look like at a certain time.
+* Code: `LessonElements`
+
+**Study Links**:
+* [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
+
+
+#### Components and Props
+> Components can be used to build complete views in React. Each component needs some data to display or to work with.
+This data is known as Props.
+* Code: `LessonCompProps`
+
+**Study Links**:
+* [React components Explained](https://codeburst.io/react-components-explained-96718311f20b)
+* [React Components, Elements and Instances](https://reactjs.org/blog/2015/12/18/react-components-elements-and-instances.html)
+* [React Props Basics](https://kolosek.com/react-props-basic/)
+* [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)

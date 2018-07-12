@@ -32,7 +32,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.API_INTEGRATION,
+      activeLesson: LESSON_TYPES.JSX,
     };
   }
 
