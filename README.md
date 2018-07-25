@@ -12,6 +12,7 @@ A hands-on workshop on building Web Apps with React
 * [Components and Props](#components-and-props)
 * [State and Lifecycle](#state-and-lifecycle)
 * [Event Handling in React](#event-handling-in-react)
+* [State Lift-up](#state-lift-up)
 
 
 #### Environment Setup
@@ -99,3 +100,11 @@ This data is known as Props.
 * [React and ES6 - Binding Approaches](http://egorsmirnov.me/2015/08/16/react-and-es6-part3.html)
 * [React, ES6, Autobinding, and createClass()](https://blog.andrewray.me/react-es6-autobinding-and-createclass/)
 * [React Binding Patterns: 5 Approaches for Handling `this`](https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56)
+
+
+#### State Lift-up
+> Move components' state to common ancestors when state trees start to get duplicated in children components.
+* Code: `LessonStateLiftUp > part1 / part2 > TemperatureCalculator`
+
+**Study Links**:
+* [ReactJS docs: Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
