@@ -2,15 +2,15 @@
 import React, { Component }from 'react';
 import classnames from 'classnames';
 
-import LessonJSX from './LessonJSX/LessonJSX';
-import LessonElements from './LessonElements/LessonElements';
-import LessonCompProps from './LessonCompProps/LessonCompProps';
-import LessonStateLifeHooks from './LessonStateLifeHooks/LessonStateLifeHooks';
-import LessonConditionalRenders from './LessonConditionalRenders/LessonConditionalRenders';
-import LessonStateLiftup from './LessonStateLiftup/LessonStateLiftup';
-import LessonContainerPresentational from './LessonContainerPresentational/LessonContainerPresentational';
-import LessonUserData from './LessonUserData/LessonUserData';
-import LessonAPIIntegration from './LessonAPIIntegration/LessonAPIIntegration';
+import LessonJSX from './1_LessonJSX/LessonJSX';
+import LessonElements from './2_LessonElements/LessonElements';
+import LessonCompProps from './3_LessonCompProps/LessonCompProps';
+import LessonStateLifeHooks from './4_LessonStateLifeHooks/LessonStateLifeHooks';
+import LessonConditionalRenders from './5_LessonConditionalRenders/LessonConditionalRenders';
+import LessonStateLiftup from './6_LessonStateLiftup/LessonStateLiftup';
+import LessonContainerPresentational from './7_LessonContainerPresentational/LessonContainerPresentational';
+import LessonUserData from './8_LessonUserData/LessonUserData';
+import LessonAPIIntegration from './9_LessonAPIIntegration/LessonAPIIntegration';
 
 import './Lessons.css';
 
