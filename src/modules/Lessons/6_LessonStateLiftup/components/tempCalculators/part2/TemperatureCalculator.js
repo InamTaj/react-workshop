@@ -16,7 +16,7 @@ class TemperatureCalculator extends Component {
       temperature: '',
     };
 
-    this.onTempChange = this.setTemperature.bind(this);
+    this.setTemperature = this.setTemperature.bind(this);
   }
 
   setTemperature(temperature) {

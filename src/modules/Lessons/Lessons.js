@@ -32,7 +32,7 @@ class Lessons extends Component {
 
 
     this.state = {
-      activeLesson: LESSON_TYPES.JSX,
+      activeLesson: LESSON_TYPES.STATE_LIFTUP,
     };
   }
 

@@ -13,7 +13,9 @@ class SearchResults extends Component {
   }
 
   componentWillMount() {
-    /* Load results from API or a local file*/
+    /* Load results from API or a local file: resultsList and create a view of Search Results
+       that should render the information as well as implement the Show/Hide detail
+    */
   }
 
   render() {
