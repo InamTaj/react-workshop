@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Lessons from '../Lessons/Lessons';
+
+import routes from '../../routes';
 
 import './App.css';
 
@@ -11,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header/>
-        <Lessons />
+        {routes}
         <Footer/>
       </div>
     );
