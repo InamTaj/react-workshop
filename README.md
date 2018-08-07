@@ -13,6 +13,10 @@ A hands-on workshop on building Web Apps with React
 * [State and Lifecycle](#state-and-lifecycle)
 * [Event Handling in React](#event-handling-in-react)
 * [State Lift-up](#state-lift-up)
+* [Container vs. Presentational](#container-vs-presentational)
+* [Handling User data](#handling-user-data)
+* [API Integration](#api-integration)
+* [Navigation / Routing](#navigation-or-routing)
 
 
 #### Environment Setup
@@ -108,3 +112,64 @@ This data is known as Props.
 
 **Study Links**:
 * [ReactJS docs: Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
+
+#### Container vs Presentational
+> Fundamental design pattern of React for managing and separating Logic / Data processing and View / Markup.
+* Code: `LessonContainerPresentational`
+
+**Study Links**:
+* [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+* [Leveling Up with React: Container Components](https://css-tricks.com/learning-react-container-components/)
+* [Content vs Container](https://hackernoon.com/content-vs-container-e0a1ada681c1)
+* [Reusable state for React UI components](https://medium.com/@efreyreg/reusable-state-for-react-ui-components-e38c5af40be4)
+
+#### Handling User data
+> Getting data from users via Forms in React can be done via Controlled components where each HTML Form element behaves like a React component.
+* Code: `LessonUserData`
+
+**Study Links**:
+* [React.js Forms: Controlled Components](https://lorenstewart.me/2016/10/31/react-js-forms-controlled-components/)
+* [Managing React Controlled Component State](http://spraso.com/managing-react-controlled-component-state/)
+* [Content vs Container](https://hackernoon.com/content-vs-container-e0a1ada681c1)
+* [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+
+#### API Integration
+> Integrate / Load data from any 3rd party source via RESTful APIs / AJAX calls but in a way that conforms to React's programming model.
+* Code: `LessonAPIIntegration > PracticeAPIIntegration > GitDashboard`
+
+**Study Links**:
+* [How to make AJAX requests in React?](https://medium.com/@baphemot/how-to-make-ajax-requests-in-react-a6a52bb5a8b1)
+* [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
+* [Where to Fetch Data: componentWillMount vs componentDidMount](https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/)
+* [Loading data from APIs in React](https://javascriptplayground.com/http-requests-reactjs/)
+
+#### Navigation or Routing
+> Navigation is a cross-cutting concern and we need a declartive solution for implementing Navigation in our app.
+Fortunately React Router v4 is the solution already available to us.
+* Code: `branch: react-router-integration`
+
+**Study Links**:
+* [react-router-4-practical-tutorial](https://auth0.com/blog/react-router-4-practical-tutorial/)
+* [All About React Router 4](https://css-tricks.com/react-router-4/)
+* [React Router v4: The Complete Guide](https://www.sitepoint.com/react-router-v4-complete-guide/)
+* [Using React Router v4 with create-react-app](https://codingblast.com/react-router-create-react-app/)
+* [Server Rendering, Code Splitting, and Lazy Loading with React Router v4](https://medium.com/airbnb-engineering/server-rendering-code-splitting-and-lazy-loading-with-react-router-v4-bfe596a6af70)
+* [Advanced React Router concepts: recursive path, code splitting, animated transitions, and more](https://blog.logrocket.com/advanced-react-router-concepts-code-splitting-animated-transitions-scroll-restoration-recursive-17096c0cf9db)
+* [Protected Routes and Authentication with React Router v4](https://tylermcginnis.com/react-router-protected-routes-authentication/)
+* [Role-based authorization using React-Router](http://frontendinsights.com/role-based-authorization-using-react-router/)
+* [How to Build a React Application with User Login and Authentication](https://stormpath.com/blog/build-a-react-app-with-user-authentication)
+
+#### Global Storage
+> Global Storage is required in all Single Page Apps for better data handling. Redux is the most popular and robust solution available.
+
+**Study Links**:
+* [Redux Official Docs](https://redux.js.org/)
+* [Beginner Video Course on Redux by its creator](https://egghead.io/series/getting-started-with-redux)
+* [An Introduction to Redux - Smashing Magazine](https://www.smashingmagazine.com/2016/06/an-introduction-to-redux/)
+* [Redux Fundamentals - Video](https://youtu.be/ewelU8WHXQ4)
+* [React Redux Tutorial for Beginners: The Definitive Guide (2018)](https://www.valentinog.com/blog/react-redux-tutorial-beginners/)
+* [Leveling Up with React: Redux](https://css-tricks.com/learning-react-redux/)
+* [Redux: From Twitter hype to Production](http://slides.com/jenyaterpil/redux-from-twitter-hype-to-production#/)
+* [Redux Fundamentals - Reactathon Slides](https://blog.isquaredsoftware.com/presentations/2018-03-redux-fundamentals/#/)
+* [A Cartoon Introduction to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+* [Redux Diagrams](https://github.com/reduxjs/redux/issues/653)
