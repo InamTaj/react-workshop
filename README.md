@@ -1,6 +1,6 @@
-react-workshop
+:boom: react-workshop :boom:
 ===
-A hands-on workshop on building Web Apps with React
+A hands-on workshop :computer: on building Web Apps with React
 
 
 ## Table of Contents
@@ -53,7 +53,8 @@ Run the following commands in the exact order in order to download project depen
  * [ES6 Overview & Comparison](http://es6-features.org/#Constants)
  * [es6features](https://github.com/lukehoban/es6features)
 
-
+**[⬆ back to top](#table-of-contents)**
+___
 #### Introduction to JSX
 > JSX allows writing Markup in JavaScript. It's a utility that helps developers create React components quickly and seamlessly.
 * Code: `LessonJSX`
@@ -62,7 +63,8 @@ Run the following commands in the exact order in order to download project depen
 * [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 * [React: Rethinking best practices](https://youtu.be/x7cQ3mrcKaY)
 
-
+**[⬆ back to top](#table-of-contents)**
+___
 #### React Elements
 > Elements are the basic building blocks of React apps. They represent how DOM should look like at a certain time.
 * Code: `LessonElements`
@@ -70,6 +72,8 @@ Run the following commands in the exact order in order to download project depen
 **Study Links**:
 * [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
 
+**[⬆ back to top](#table-of-contents)**
+___
 
 #### Components and Props
 > Components can be used to build complete views in React. Each component needs some data to display or to work with.
@@ -82,6 +86,8 @@ This data is known as Props.
 * [React Props Basics](https://kolosek.com/react-props-basic/)
 * [Typechecking with PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### State and Lifecycle
 > React's state allows us sto store and manipulate data in a component. Lifecycle hooks enable us to perform operations during certain points in the execution lifecycle of the component.
 * Code: `LessonStateLifeHooks`
@@ -93,10 +99,14 @@ This data is known as Props.
 * [How to handle state in React - The missing FAQ](https://medium.com/react-ecosystem/how-to-handle-state-in-react-6f2d3cd73a0c)
 * [Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### Event Handling in React
 > Similar to DOM event handling with a few convention differences as well as knowledge of binding functions with classes.
 * Code: `Lessons.js` / `LessonState.js` / `LessonHooks.js` / `Profile.js`
 
+**[⬆ back to top](#table-of-contents)**
+___
 **Study Links**:
 * [Events in React](https://www.kirupa.com/react/events_in_react.htm)
 * [YouTube: React events in depth](https://youtu.be/dRo_egw7tBc)
@@ -105,7 +115,8 @@ This data is known as Props.
 * [React, ES6, Autobinding, and createClass()](https://blog.andrewray.me/react-es6-autobinding-and-createclass/)
 * [React Binding Patterns: 5 Approaches for Handling `this`](https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56)
 
-
+**[⬆ back to top](#table-of-contents)**
+___
 #### State Lift-up
 > Move components' state to common ancestors when state trees start to get duplicated in children components.
 * Code: `LessonStateLiftUp > part1 / part2 > TemperatureCalculator`
@@ -113,6 +124,8 @@ This data is known as Props.
 **Study Links**:
 * [ReactJS docs: Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### Container vs Presentational
 > Fundamental design pattern of React for managing and separating Logic / Data processing and View / Markup.
 * Code: `LessonContainerPresentational`
@@ -123,6 +136,8 @@ This data is known as Props.
 * [Content vs Container](https://hackernoon.com/content-vs-container-e0a1ada681c1)
 * [Reusable state for React UI components](https://medium.com/@efreyreg/reusable-state-for-react-ui-components-e38c5af40be4)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### Handling User data
 > Getting data from users via Forms in React can be done via Controlled components where each HTML Form element behaves like a React component.
 * Code: `LessonUserData`
@@ -133,6 +148,8 @@ This data is known as Props.
 * [Content vs Container](https://hackernoon.com/content-vs-container-e0a1ada681c1)
 * [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### API Integration
 > Integrate / Load data from any 3rd party source via RESTful APIs / AJAX calls but in a way that conforms to React's programming model.
 * Code: `LessonAPIIntegration > PracticeAPIIntegration > GitDashboard`
@@ -143,6 +160,8 @@ This data is known as Props.
 * [Where to Fetch Data: componentWillMount vs componentDidMount](https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/)
 * [Loading data from APIs in React](https://javascriptplayground.com/http-requests-reactjs/)
 
+**[⬆ back to top](#table-of-contents)**
+___
 #### Navigation or Routing
 > Navigation is a cross-cutting concern and we need a declartive solution for implementing Navigation in our app.
 Fortunately React Router v4 is the solution already available to us.
@@ -159,6 +178,9 @@ Fortunately React Router v4 is the solution already available to us.
 * [Role-based authorization using React-Router](http://frontendinsights.com/role-based-authorization-using-react-router/)
 * [How to Build a React Application with User Login and Authentication](https://stormpath.com/blog/build-a-react-app-with-user-authentication)
 
+**[⬆ back to top](#table-of-contents)**
+___
+
 #### Global Storage
 > Global Storage is required in all Single Page Apps for better data handling. Redux is the most popular and robust solution available.
 
@@ -173,3 +195,7 @@ Fortunately React Router v4 is the solution already available to us.
 * [Redux Fundamentals - Reactathon Slides](https://blog.isquaredsoftware.com/presentations/2018-03-redux-fundamentals/#/)
 * [A Cartoon Introduction to Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
 * [Redux Diagrams](https://github.com/reduxjs/redux/issues/653)
+
+
+**[⬆ back to top](#table-of-contents)**
+___
