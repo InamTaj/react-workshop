@@ -1,0 +1,20 @@
+{
+  "contacts": {},
+  "login": {
+    "success": true,
+    "message": "Login successful",
+    "data": {
+      "user_id": 5,
+      "avatar": "https://robohash.org/aperiamestculpa.png?size=550x550&set=set1",
+      "first_name": "Inam",
+      "last_name": "Taj",
+      "date_of_birth": "1783-09-22T02:24:24Z",
+      "gender": "Male",
+      "email": "inamullahtaj@gmail.com",
+      "phone": "+92 314 6800289",
+      "country": "Indonesia",
+      "token": "1CVkeUqi77XWTV5MMqZqGENyHZbAMWcNEU",
+      "token_expiry": "7200"
+    }
+  }
+}
