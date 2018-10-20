@@ -23,3 +23,13 @@ A hands-on workshop :computer: on building Web Apps with React
 * [ ] Implement Logout
 
 #### Dev Setup
+
+* `sudo yarn global add json-server`
+
+###### App Backend
+* `cd react-workshop`
+* Start the server: `json-server -d 1000 -wp 3333 backend-api.db`
+
+Further Links for Backend Server
+* [json-server](https://github.com/typicode/json-server)
+* [Creating Demo APIs using json-server`](https://egghead.io/lessons/javascript-creating-demo-apis-with-json-server)
