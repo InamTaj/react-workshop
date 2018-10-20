@@ -20,6 +20,8 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-loading": "^2.0.3",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "^2.0.5",
     "toastr": "^2.1.4"
   },

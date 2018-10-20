@@ -1,0 +1,12 @@
+.dashboard {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    cursor: pointer;
+  }
+  .time {
+    font-size: 200px;
+    font-weight: bold;
+  }
+}
