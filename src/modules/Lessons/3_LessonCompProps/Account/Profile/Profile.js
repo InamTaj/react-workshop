@@ -1,4 +1,4 @@
-/* eslint-disable no-script-url */
+/* eslint-disable no-script-url, jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';

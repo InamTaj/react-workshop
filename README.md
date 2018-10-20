@@ -21,7 +21,7 @@ A hands-on workshop :computer: on building Web Apps with React
 
 #### Environment Setup
 > For this workshop, we use the following set of tools and technologies:
-* [Node.js v7+](https://nodejs.org/en/download/)
+* [Node.js v8.10+](https://nodejs.org/en/download/)
 * [Yarn!](https://yarnpkg.com/en/docs/install#debian-stable)
 * [WebStorm](https://www.jetbrains.com/webstorm/) / [Sublime 3](https://www.sublimetext.com/3)
 * [Google Chrome v60+](https://www.google.com/intl/en/chrome/browser/)
