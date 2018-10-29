@@ -1,22 +1,22 @@
-import React, {Component} from 'react';
-import {object,} from 'prop-types';
-import {withRouter} from 'react-router-dom';
+import React, { Component } from 'react';
+import { object } from 'prop-types';
+import { withRouter } from 'react-router-dom';
 
-import {APP_ROUTES} from '../../config/appConstants';
-import {getLatestTime} from './helpers';
+import { APP_ROUTES } from '../../config/appConstants';
+import { getLatestTime } from './helpers';
 import './style.css';
 
 class Dashboard extends Component {
-  state = {time: getLatestTime()};
+  state = { time: getLatestTime() };
 
   componentDidMount() {
     this.timeUpdationInterval = setInterval(() => {
-      this.setState(() => ({ time: getLatestTime() }))
+      this.setState(() => ({ time: getLatestTime() }));
     }, 1000);
   }
 
   componentWillUnmount() {
-    clearInterval(this.timeUpdationInterval)
+    clearInterval(this.timeUpdationInterval);
   }
 
   onClick = () => {
@@ -24,12 +24,10 @@ class Dashboard extends Component {
   };
 
   render() {
-    const {time} = this.state;
+    const { time } = this.state;
     return (
       <div className="dashboard" onClick={this.onClick}>
-        <p className="time">
-          {time}
-        </p>
+        <p className="time">{time}</p>
       </div>
     );
   }

@@ -9,7 +9,11 @@
     "start:js": "react-scripts start",
     "start": "npm-run-all -p watch:css start:js",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "lint": "esw",
+    "lint:watch": "esw --watch",
+    "format": "prettier --config .prettierrc --write 'src/**/*.{js,jsx}'",
+    "format:watch": "onchange '**/*.js' -- yarn format"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -30,5 +34,16 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
+    "onchange": "^5.0.2",
+    "prettier": "1.14.3"
+  }
 }
