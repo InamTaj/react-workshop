@@ -7,8 +7,8 @@ A hands-on workshop :computer: on building Web Apps with React
 #### Agenda
 
 * [x] Create a basic react-app with Navigation
-* [ ] Integrate ESLint for standardized JS, ES6 coding
-* [ ] Integrate Prettier for easy formatting of JS
+* [x] Integrate ESLint for standardized JS, ES6 coding
+* [x] Integrate Prettier for easy formatting of JS
 * [ ] Integrate `redux`
 * [ ] Update `Dashboard` to use `redux` state
 * [ ] Create `DashboardTimer` & display it on top-right in `Header`
