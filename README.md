@@ -2,6 +2,7 @@
 ===
 A hands-on workshop :computer: on building Web Apps with React
 
+Slides Link: [Building React apps - Slides](http://bit.ly/deck_react-workshop)
 
 ## Table of Contents
 * [Environment Setup](#environment-setup)
